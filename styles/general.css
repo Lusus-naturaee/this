@@ -1,0 +1,21 @@
+div {
+    color: blue;
+    font-size: 24px;
+}
+
+.scrolling-text {
+    position: relative;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+  }
+
+  @keyframes scroll-left {
+    from {
+     left: 100%;
+     width: 500%; 
+    }
+    to {
+      left: -100%;
+      width: 500%;
+    }
+  }
