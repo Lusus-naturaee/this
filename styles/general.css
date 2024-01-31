@@ -16,11 +16,13 @@
 #c {
   color: purple;
   font-size: 24px;
+  font-family: sans-serif;
 }
 
 #l {
   color: yellow;
   font-size: 24px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .scrolling-text {
@@ -38,4 +40,11 @@
       left: -100%;
       width: 500%;
     }
+  }
+
+
+  header {
+    position: fixed;
+    align-items: center;
+     
   }
